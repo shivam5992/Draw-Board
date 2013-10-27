@@ -49,3 +49,14 @@ float: right;
 .swatch.active{
 	border:2px solid white;
 }
+
+#save{
+	height: 30px;
+	padding: 8px;
+	background-color: #434343;
+	float: right;
+}
+#save:hover
+{
+	background-color: #818181;
+}
