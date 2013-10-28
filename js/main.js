@@ -47,7 +47,7 @@ var setRadius = function(newRadius){
 
 var minRad = 2,
 	maxRad = 100,
-	defaultRad = 20,
+	defaultRad = 10,
 	interval = 2,
 	radSpan = document.getElementById('radval'),
 	decRad = document.getElementById('decrad'),
@@ -62,7 +62,7 @@ incRad.addEventListener('click',function(){
 setRadius(defaultRad);
 
 //color
-var colors = ['white','black','red','blue','yellow','green']
+var colors = ['black','white','red','blue','yellow','green']
 
 for(var i=0,n=colors.length;i<n;i++){
 	var swatch = document.createElement('div');
